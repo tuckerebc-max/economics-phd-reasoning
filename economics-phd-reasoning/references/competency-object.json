@@ -1,0 +1,261 @@
+{
+  "competency_id": "F2-COMP-67-ECONOMICS-001",
+  "name": "Economics doctoral research reasoning and defense",
+  "version": "0.1",
+  "domain": "6.7 advanced disciplinary competencies",
+  "source_provenance": [
+    {
+      "source_id": "F2-67-003",
+      "layer": "SOURCE",
+      "role": "QAA Economics benchmark"
+    },
+    {
+      "source_id": "F2-67-004",
+      "layer": "SOURCE",
+      "role": "AEA doctoral preparation overview"
+    },
+    {
+      "source_id": "F2-67-014",
+      "layer": "UNIVERSITY_EXEMPLAR",
+      "role": "Stanford Economics doctoral program"
+    }
+  ],
+  "construct_definition": "Formulate and defend original economic research by constructing models, stating assumptions, aligning methods to claims, evaluating evidence and robustness, and communicating substantive implications. No universal Economics PhD rubric is claimed.",
+  "claims": [
+    {
+      "layer": "SOURCE",
+      "statement": "QAA addresses theory, empirical analysis, mathematics and statistics, evidence, policy, application, and communication.",
+      "source_ids": [
+        "F2-67-003"
+      ]
+    },
+    {
+      "layer": "SOURCE",
+      "statement": "AEA describes core theory, econometrics, fields, qualifying exams, research, and dissertation.",
+      "source_ids": [
+        "F2-67-004"
+      ]
+    },
+    {
+      "layer": "UNIVERSITY_EXEMPLAR",
+      "statement": "Stanford provides one doctoral pathway through core work, fields, seminars, and research.",
+      "source_ids": [
+        "F2-67-014"
+      ]
+    }
+  ],
+  "subskills": [
+    {
+      "id": "ECON-S1",
+      "name": "question and contribution"
+    },
+    {
+      "id": "ECON-S2",
+      "name": "model and assumptions"
+    },
+    {
+      "id": "ECON-S3",
+      "name": "identification and methods"
+    },
+    {
+      "id": "ECON-S4",
+      "name": "robustness and alternatives"
+    },
+    {
+      "id": "ECON-S5",
+      "name": "interpretation and defense"
+    }
+  ],
+  "evidence_requirements": [
+    {
+      "id": "ECON-E1",
+      "evidence": "research-position memo"
+    },
+    {
+      "id": "ECON-E2",
+      "evidence": "model and assumptions audit"
+    },
+    {
+      "id": "ECON-E3",
+      "evidence": "identification and methods memo"
+    },
+    {
+      "id": "ECON-E4",
+      "evidence": "robustness or replication packet"
+    },
+    {
+      "id": "ECON-E5",
+      "evidence": "defense and revision record"
+    }
+  ],
+  "task_archetypes": [
+    {
+      "id": "ECON-T1",
+      "task": "model construction"
+    },
+    {
+      "id": "ECON-T2",
+      "task": "identification review"
+    },
+    {
+      "id": "ECON-T3",
+      "task": "empirical or theoretical robustness"
+    },
+    {
+      "id": "ECON-T4",
+      "task": "seminar or dissertation defense"
+    }
+  ],
+  "quality_dimensions": [
+    {
+      "id": "Q1",
+      "name": "question and contribution"
+    },
+    {
+      "id": "Q2",
+      "name": "assumption transparency"
+    },
+    {
+      "id": "Q3",
+      "name": "identification and method fit"
+    },
+    {
+      "id": "Q4",
+      "name": "robustness and uncertainty"
+    },
+    {
+      "id": "Q5",
+      "name": "interpretation and defense"
+    }
+  ],
+  "scoring_rules": [
+    {
+      "layer": "SOURCE",
+      "rule": "Preserve methodological plurality and source-level expectations."
+    },
+    {
+      "layer": "EVALUATOR_DESIGN",
+      "rule": "Do not reward causal language when identification does not support it."
+    }
+  ],
+  "performance_levels": [
+    {
+      "level": "emerging",
+      "description": "presents a model or result with limited assumptions or evidence alignment"
+    },
+    {
+      "level": "proficient",
+      "description": "aligns contribution, assumptions, methods, evidence, and interpretation"
+    },
+    {
+      "level": "transfer",
+      "description": "repairs a plausible but invalid identification strategy and narrows the claim"
+    }
+  ],
+  "failure_modes": [
+    {
+      "id": "FM1",
+      "name": "model-as-reality"
+    },
+    {
+      "id": "FM2",
+      "name": "hidden assumptions"
+    },
+    {
+      "id": "FM3",
+      "name": "correlation-as-causation"
+    },
+    {
+      "id": "FM4",
+      "name": "agent code without substantive check"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "C1",
+      "constraint": "field variation remains visible"
+    },
+    {
+      "id": "C2",
+      "constraint": "no invented data, coefficients, or literature"
+    },
+    {
+      "id": "C3",
+      "constraint": "discipline methods review for technical examples"
+    }
+  ],
+  "risk_considerations": [
+    {
+      "risk": "misleading policy inference",
+      "control": "claim-type and identification check"
+    },
+    {
+      "risk": "methodological monoculture",
+      "control": "multiple traditions and exemplars"
+    }
+  ],
+  "agent_instructions": {
+    "allowed_role": "check algebra, code, assumptions, and alternative specifications",
+    "must_do": [
+      "state claim type",
+      "show assumptions",
+      "test robustness",
+      "surface unidentifiable claims"
+    ],
+    "must_not_do": [
+      "invent results",
+      "declare causal inference without basis",
+      "flatten subfields"
+    ],
+    "human_accountability": "researcher owns contribution and substantive interpretation"
+  },
+  "evaluator_checks": [
+    {
+      "id": "EV1",
+      "check": "contribution is explicit"
+    },
+    {
+      "id": "EV2",
+      "check": "assumptions and identification are visible"
+    },
+    {
+      "id": "EV3",
+      "check": "robustness and alternatives are tested"
+    },
+    {
+      "id": "EV4",
+      "check": "interpretation matches evidence"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "TC1",
+      "fixture": "plausible regression with confounding",
+      "expected": "identification concern"
+    },
+    {
+      "id": "TC2",
+      "fixture": "weak robustness",
+      "expected": "claim narrowed"
+    },
+    {
+      "id": "TC3",
+      "fixture": "field-specific method",
+      "expected": "method plurality preserved"
+    },
+    {
+      "id": "TC4",
+      "fixture": "replication packet",
+      "expected": "reproducibility and interpretation review"
+    }
+  ],
+  "related_competencies": [
+    "F2-COMP-67-MEASUREMENT-001",
+    "F2-COMP-67-EDUCATION-RESEARCH-001"
+  ],
+  "open_questions": [
+    {
+      "question": "Which additional doctoral programs provide public outcome or defense criteria?"
+    }
+  ]
+}

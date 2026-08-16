@@ -1,0 +1,52 @@
+{
+  "evaluator_id": "OPT-67-ECONOMICS-EVALUATOR-001",
+  "track_id": "OPT-67-ECONOMICS",
+  "competency_id": "F2-COMP-67-ECONOMICS-001",
+  "status": "EVALUATOR_DRAFT",
+  "primary_evidence": [
+    "contribution memo",
+    "model / assumptions audit",
+    "identification plan",
+    "analysis / robustness packet",
+    "interpretation memo",
+    "defense questions",
+    "revision log."
+  ],
+  "dimensions": [
+    "contribution",
+    "assumptions",
+    "identification",
+    "method fit",
+    "robustness",
+    "uncertainty",
+    "interpretation",
+    "methodological plurality",
+    "response to critique",
+    "reproducibility."
+  ],
+  "critical_failures": [
+    "invented result",
+    "unsupported causal claim",
+    "hidden assumption that changes the conclusion",
+    "or code output accepted without substantive validation."
+  ],
+  "challenge_set_design": [
+    "confounded regression",
+    "weak instrument",
+    "model with hidden assumption",
+    "robustness failure",
+    "conflicting theoretical explanation",
+    "replication / interpretation mismatch."
+  ],
+  "improvement_loop": "diagnose identification or assumption failure → revise claim / design → rerun robustness packet → compare whether the claim is appropriately narrowed.",
+  "quality_dimensions": [
+    "question and contribution",
+    "assumption transparency",
+    "identification and method fit",
+    "robustness and uncertainty",
+    "interpretation and defense"
+  ],
+  "human_review_required": true,
+  "no_credentialing": true,
+  "source_boundary": "Project evaluator design until source-specific validity and human-review gates close."
+}

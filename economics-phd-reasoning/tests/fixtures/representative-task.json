@@ -1,0 +1,95 @@
+{
+  "fixture_id": "FIX-ECONOMICS-PHD-REASONING-001",
+  "track_id": "OPT-67-ECONOMICS",
+  "competency_id": "F2-COMP-67-ECONOMICS-001",
+  "status": "READY_FOR_HUMAN_DRY_RUN",
+  "source_ids": [
+    "F2-67-003",
+    "F2-67-004",
+    "F2-67-014"
+  ],
+  "construct_boundary": "Original educational pilot for Economics PhD reasoning and original research; not a credential, license, professional authorization, or high-impact decision.",
+  "task_contract": {
+    "purpose": "Run one bounded learner/reviewer task and inspect the evidence record.",
+    "role": "economics research reasoning and identification auditor",
+    "audience": "learner and qualified reviewer",
+    "format": "contribution memo, assumptions audit, identification review, alternative explanations, robustness plan, narrowed conclusion.",
+    "time_limit": "60 minutes",
+    "allowed_materials": [
+      "this original synthetic fixture",
+      "learner notes",
+      "clearly identified public sources where applicable"
+    ],
+    "prohibited_actions": [
+      "invent source content",
+      "use confidential or real-person data",
+      "present the output as professional authorization"
+    ],
+    "decision_rights": "provide formative feedback and request review; no credentialing or final consequential decision",
+    "accessibility": "plain-language, screen-reader-compatible, and equivalent representations are permitted"
+  },
+  "stimulus": {
+    "type": "original_synthetic_bounded_packet_excerpt",
+    "notice": "The fixture is educational and non-secure.",
+    "excerpt": "## `OPT-67-ECONOMICS` — Diagnose an identification problem\n\n**Learner target:** Match a research claim to assumptions, identification, evidence, and robustness.\n\n**Fictional study:** A researcher compares outcomes in places that adopted a policy earlier with outcomes in places that adopted later. The groups differ before the policy, but the draft interprets the difference as a causal effect.\n\n**Learner task:** State the claim type, identify assumptions, diagnose the identification problem, propose a bounded design repair, and state what remains unidentifiable.\n\n**Required artifact:** contribution memo, assumptions audit, identification review, alternative explanations, robustness plan, narrowed conclusion.\n\n**Nonmodel:** “The coefficient is statistically significant, so the policy caused the difference.”  \n**Feedback move:** Ask “What would have to be true for the comparison to identify the causal effect, and what evidence tests that assumption?”\n\n**Agent handoff:** Agent can check calculations and propose specifications; researcher owns the substantive claim and interpretation.\n\n**Exit test:** Provide a plausible robustness check that does not address the core confounding...."
+  },
+  "learner_deliverables": [
+    "contribution memo, assumptions audit, identification review, alternative explanations, robustness plan, narrowed conclusion.",
+    "uncertainty and limitation record",
+    "review/escalation request"
+  ],
+  "evidence_envelope": {
+    "required_fields": [
+      "task_contract",
+      "source_ids",
+      "evidence",
+      "uncertainty",
+      "review_status"
+    ],
+    "minimum_evidence": [
+      "source traceability",
+      "boundary statement",
+      "at least one limitation or unresolved question",
+      "human-review route"
+    ]
+  },
+  "machine_checks": [
+    "required fields are present",
+    "source IDs are nonempty",
+    "rights and safety flags are declared",
+    "review status is present"
+  ],
+  "human_review": [
+    "Economist or field specialist owns substantive interpretation and data/code validation.",
+    "substantive interpretation",
+    "accessibility and fairness",
+    "whether the output crosses the boundary"
+  ],
+  "stop_conditions": [
+    "real or confidential data are introduced",
+    "source or rights status is unclear",
+    "the task crosses into a live professional decision",
+    "the output is presented as a credential or sign-off"
+  ],
+  "evaluator": {
+    "dimensions": [
+      "traceability",
+      "construct evidence",
+      "uncertainty",
+      "boundary discipline",
+      "communication"
+    ],
+    "machine_decision": "structural checks only",
+    "human_decision": "qualified reviewer decides substantive adequacy and escalation",
+    "no_credentialing": true
+  },
+  "qa": {
+    "original_fixture": true,
+    "secure_content_reproduced": false,
+    "confidential_data": false,
+    "human_dry_run": "pending",
+    "known_risks": [
+      "Preserve methodological plurality, assumptions, uncertainty, reproducibility, and the distinction between exemplars and consensus."
+    ]
+  }
+}

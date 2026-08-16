@@ -1,0 +1,6 @@
+interface:
+  display_name: "Economics PhD Reasoning"
+  short_description: "Audit models and identification"
+  default_prompt: "Use $economics-phd-reasoning for a source-grounded, bounded Economics PhD reasoning and original research workflow."
+policy:
+  allow_implicit_invocation: true
